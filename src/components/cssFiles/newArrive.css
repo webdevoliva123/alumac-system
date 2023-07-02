@@ -1,0 +1,43 @@
+.newArriveContainer{
+    width: 100%;
+    height:60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 926px) {
+    .newArriveContainer{
+        height: 50vh;
+    }
+}
+
+@media (max-width: 888px) {}
+
+@media (max-width: 767px){
+}
+
+@media (max-width:711px) {
+    .newArriveContainer{
+        height: 40vh;
+    }
+}
+
+@media (max-width: 576px){
+
+}
+
+@media (max-width: 480px){
+    .newArriveContainer{
+        height: 30vh;
+    }
+}
+
+@media (max-width: 420px) {}

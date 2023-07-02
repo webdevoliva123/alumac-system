@@ -1,0 +1,64 @@
+.testiomnialCard-container{
+    width: 100%;
+    padding: 2vmax 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testiomnialCard{
+    width: 350px;
+    height: 400px;
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.2),0 -1px 2px rgba(0, 0, 0, 0.2) ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vmax;
+    padding: 10px;
+    background: #fff;
+}
+
+.testiomnialCard-imgBx{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    overflow: hidden;
+    margin-bottom: 0.5vmax;
+}
+
+.testiomnialCard-imgBx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testiomnialCard-hosName{
+    font-size: 1em;
+    margin: 1vmax 0;
+}
+
+.testiomnialCard-cityName{
+    font-size: 0.8em;
+    color: var(--primary-red);
+}
+
+.testiomnialCard-dec{
+    height: 150px;
+    overflow-y: scroll;
+    text-align: center;
+    font-size: 0.9em;
+    margin: 0 0.5vmax;
+}
+
+.testiomnialCard-container-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmax 1vmax;
+}

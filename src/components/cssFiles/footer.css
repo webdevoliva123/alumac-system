@@ -1,0 +1,140 @@
+
+.preFooter1Container,.preFooter2Container,.preFooter3Container{
+    width: 100%;
+    background: #111;
+}
+.preFooter1 {
+    width: 100%;
+    background: #111;
+    padding: 40px 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(7,172px);
+    grid-gap: 0.5vmax;
+}
+.preFooter1 p{
+    font-size: 0.8em;
+    color: #b0b0b0;
+}
+
+.preFooter1 a:hover{
+    color: var(--primary-red);
+}
+
+.preFooter1 a{
+    line-height: 32px;
+    font-size: 0.7em;
+    color: #b0b0b0;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.preFooter1 .conatact-span{
+    font-size: 0.7em;
+    font-weight: 200;
+    color: #b0b0b0;
+}
+
+.preFooter1 .contactButton{
+    margin-top: 1vmax;
+}
+
+.preFooter2Container,.preFooter3Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preFooter3Container{
+    flex-direction: column;
+    padding-top: 20px;
+    visibility: hidden;
+    display: none;
+}
+
+.preFooter3Container h1{
+    font-size: 2em;
+    color: #fff;
+}
+
+.preFooter2Container-content{
+    width: 100%;
+    padding:20px 100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.preFooter2Container-content .hr{
+    width: 90%;
+    height: 0.5px ;
+    background: #f1f1f1;
+    margin-bottom: 4vmax;
+}
+
+.preFooter2Container-content .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vmax;
+}
+
+.preFooter2Container-content .links a{
+    margin: 0 8px;
+    font-size: 1.2em;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.preFooter2Container-content .links a:hover{
+    color: var(--primary-red);
+}
+
+.preFooter2Container-content p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+    .preFooter1Container{
+        visibility: hidden;
+        display: none;
+    }
+    .preFooter3Container{
+        visibility: visible;
+        display: flex;
+    }
+}
+
+@media (max-width: 888px) {}
+
+@media (max-width: 767px){}
+
+@media (max-width:711px) {}
+
+@media (max-width: 576px){
+    .preFooter2Container-content .hr{
+        width: 100%;
+    }
+
+    .preFooter2Container-content{
+        padding:20px;
+    }
+
+    .preFooter2Container-content p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){}
+
+@media (max-width: 420px) {}

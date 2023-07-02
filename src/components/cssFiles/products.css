@@ -1,0 +1,139 @@
+.proContainer{
+    width: 100%;
+    height: auto;
+    padding: 2vmax 6vmax;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:60px 40px;
+}
+
+.proCardBx{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2),0 -1px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    position: relative;
+}
+
+.proCardBx-imgBx{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),0 -1px 2px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.proCardBx:hover .proCardBx-imgBx{
+    margin-top: -10%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),0 -1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.proCardBx-imgBx img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.proCardBx-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.proCardBx-button button{
+    padding: 0.5vmax 1vmax;
+    font-size: 0.8em;
+    border: none;
+    background: #111;
+    color: #fff;
+
+}
+
+.proCardBx:hover .proCardBx-button{
+    display: block;
+}
+
+.proCardBx-button button:hover{
+    background: var(--primary-red);
+}
+
+.proCardBx-contentBx{
+    height: 150px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+    padding: 20px 0;
+}
+
+.proCardBx-contentBx__proId{
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+.proCardBx-contentBx__proName{
+    text-transform: capitalize;
+    font-size: 1.8em;
+    font-weight: 400;
+    cursor: pointer;
+    color: var(--primary-red);
+    text-align: center;
+}
+
+.proCardBx-contentBx__proName:hover{
+    text-decoration: underline !important;
+    color: unset;
+}
+
+.proCardBx-contentBx__proPrice
+{
+    font-size: 1.2em;
+    color: var(--primary-red);
+    margin-bottom: 20px;
+}
+
+.proCardBx-contentBx__proDec{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0 1vmax;
+    max-height:80px ;
+}
+
+.proContainer-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmax 1vmax;
+}
+
+@media screen and (max-width: 767px) {
+    .proContainer{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+
+    .proCardBx-contentBx{
+        height: auto;
+    }
+
+    .proCardBx-contentBx__proDec{
+        display: none;
+    }
+
+    .proCardBx-contentBx__proName{
+        font-size: 1.6em;
+        margin-bottom: 0;
+    }
+}

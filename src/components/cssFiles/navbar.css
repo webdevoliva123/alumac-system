@@ -1,0 +1,181 @@
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5vmax 5vmax;
+    height: 60px;
+    z-index: 200;
+    background: rgba(1, 1, 1, 1);
+}
+
+.navbar.sticky{
+    position: sticky;
+}
+
+.navbar.locationHome{
+    background: transparent;
+}
+
+.navbar__rightBx,
+.navbar__rightBx-navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.web__logo,
+.navbar__rightBx-navLinks{
+    color: #fff;
+    text-decoration: none;
+}
+
+.web__logo span{
+    color: var(--primary-red);
+}
+
+.web__logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 4vmax;
+    font-size: 2em;
+    color: #fff ;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.web__logo:hover{
+    color: #fff;
+}
+
+.navbar__rightBx{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4vmax;
+}
+
+ .navbar__rightBx-navLinks{
+    margin: 0 1vmax;
+    font-size: 0.9em;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.navbar__rightBx-navLinks:hover,
+.navbar__rightBx-navLinks#active{
+    color: var(--primary-red);
+}
+
+.navbar__rightBx-navLinks::before,
+.navbar__rightBx-navLinks#active::before{
+    content: '';
+    position: absolute;
+    bottom: -0.5vmax;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 0;
+    background: var(--primary-red);
+    transition: 0.3s ease;
+}
+
+
+.navbar__rightBx-navLinks:hover::before,
+.navbar__rightBx-navLinks#active::before{
+    width: 100%;
+}
+
+.navbar__toggle,
+.navbar-website__logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 203;
+    visibility: hidden;
+
+}
+
+.navbar-website__logo{
+    left: 4vmax;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar__toggle{
+    right: 4vmax;
+}
+
+.navbar .navbar__toggle ion-icon{
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.navbar .navbar__toggle ion-icon:hover,
+.navbar .navbar__toggle ion-icon#closeMenu{
+    color: var(--primary-red);
+}
+
+
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 888px) {}
+
+@media (max-width: 767px){
+    .web__logo{
+        font-size: 1.8em;
+    }
+
+    .navbar{
+        padding: 1vmax 3vmax;
+    }
+}
+
+@media (max-width:711px) {
+    .navbar .navbar__toggle,
+    .navbar-website__logo,
+    .sidebar{
+        visibility: visible;
+    }
+    
+    .navbar__rightBx,.web__logo{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 576px){
+    .navbar{
+        background: rgba(1, 1, 1, 0.45);
+        height: 60px;
+        }
+    
+    .navbar .navbar__toggle,.navbar-website__logo{
+        visibility: visible;
+    }
+    
+    .navbar__rightBx,.web__logo{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 480px){
+    .navbar{
+        background: rgba(1, 1, 1, 0.2);
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar{
+        background: rgba(1, 1, 1, 0);
+    }
+}

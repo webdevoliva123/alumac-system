@@ -1,0 +1,55 @@
+.aboutUs-Container{
+    width: 100%;
+    height: auto;
+    padding: 2vmax 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutUs-Container .leftBx,.aboutUs-Container .rightBx{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs-Container .leftBx{
+    width: 60%;
+}
+
+.aboutUs-Container .rightBx{
+    width: 40%;
+}
+
+.aboutUs-Container .leftBx{
+    padding: 2vmax;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.aboutUs-Container .rightBx{
+    padding: 2vmax;
+    flex-direction: column;
+}
+
+
+.aboutUs-Container .rightBx .imgBx{
+    width: 80%;
+    height: 80%;
+    background: red;
+}
+
+.aboutUs-Container .rightBx .imgBx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutUs-Container .rightBx h3{
+    margin: 1vmax 0;
+    font-weight: 200;
+    font-size: 1.2em;
+    position: relative;
+}
