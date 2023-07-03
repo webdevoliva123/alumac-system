@@ -27,7 +27,7 @@ function App() {
         <Route
           exact
           path="/products"
-          element={<MainProduct producShow={Data.product.length} />}
+          element={<MainProducts producShow={Data.product.length} />}
         />
         <Route
           exact

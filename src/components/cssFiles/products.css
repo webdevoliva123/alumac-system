@@ -136,4 +136,14 @@
         font-size: 1.6em;
         margin-bottom: 0;
     }
+
+    .cat_container{
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cat_container{
+        padding: 10px 20px;
+    }
 }
