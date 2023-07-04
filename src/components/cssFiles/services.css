@@ -8,28 +8,3 @@
     align-items: center;
     background: #fff;
 }
-
-@media (max-width: 1300px) {}
-
-@media (max-width: 1120px) {}
-
-@media (max-width: 992px) {
-    .Services{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 888px) {}
-
-@media (max-width: 767px){}
-
-@media (max-width:711px) {}
-
-@media (max-width: 576px){}
-
-@media (max-width: 480px){}
-
-@media (max-width: 420px) {}

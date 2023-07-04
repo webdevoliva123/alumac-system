@@ -80,6 +80,8 @@ const Category = () => {
           alignItems: "center",
           flexWrap: "wrap",
         }}
+
+        className="cat_container-child"
       >
         {categorys.map((category) => {
           return (

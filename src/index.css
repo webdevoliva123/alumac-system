@@ -15,3 +15,7 @@
   box-sizing: border-box;
   font-family: var(--primary-fontFamily);
 }
+
+::-webkit-scrollbar{
+  display: none;
+}

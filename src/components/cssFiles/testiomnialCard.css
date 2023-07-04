@@ -1,14 +1,14 @@
 .testiomnialCard-container{
     width: 100%;
     padding: 2vmax 1vmax;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 2vmax 6vmax;
 }
 
 .testiomnialCard{
-    width: 350px;
+    width: 100%;
     height: 400px;
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.2),0 -1px 2px rgba(0, 0, 0, 0.2) ;
     border-radius: 5px;
@@ -16,7 +16,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2vmax;
     padding: 10px;
     background: #fff;
 }
@@ -61,4 +60,50 @@
     justify-content: center;
     align-items: center;
     margin: 2vmax 1vmax;
+}
+
+@media screen and (max-width: 768px) {
+    .testiomnialCard-container{
+        gap: 25px;
+        padding: 2vmax 4vmax;
+    }
+
+    .testiomnialCard-dec{
+        display: none;
+    }
+
+    .testiomnialCard{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .testiomnialCard-container{
+        gap: 25px;
+        padding: 2vmax 2vmax;
+    }
+
+    .testiomnialCard-imgBx{
+        width: 80px;
+        height: 80px;
+    }
+
+    .testiomnialCard-dec{
+        display: none;
+    }
+
+    .testiomnialCard{
+        height: 180px;
+    }
+
+    .testiomnialCard-hosName{
+        font-size: 0.8em;
+        margin: 1vmax 0;
+        text-align: center;
+    }
+    
+    .testiomnialCard-cityName{
+        font-size: 0.6em;
+        color: var(--primary-red);
+    }
 }
