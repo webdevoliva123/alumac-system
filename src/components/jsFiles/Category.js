@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import '../cssFiles/products.css'
+import Cat from "./Cat";
 
 const Category = () => {
-    const [categoryList, setCategoryList] = useState('all')
+    const [currentCategory, setCurrentCategory] = useState({cat:"all",subCat:null})
     const [searchParams, setSearchParams] = useSearchParams();
 
   const categorys = [
@@ -12,89 +13,114 @@ const Category = () => {
       categoryName: "All",
     },
     {
-      categoryId: "diagnostic_equipment",
-      categoryName: "Diagnostic Equipment",
+      categoryId: "curtains",
+      categoryName: "Curtains",
+      subCategory : [
+        {
+          subCategoryId: "curtain1",
+          subCategoryName: "Curtain1", 
+        },
+        {
+          subCategoryId: "curtain2",
+          subCategoryName: "Curtain2", 
+        },
+        {
+          subCategoryId: "curtain3",
+          subCategoryName: "Curtain3", 
+        },
+        {
+          subCategoryId: "curtain4",
+          subCategoryName: "Curtain4", 
+        }
+      ]
     },
     {
-      categoryId: "surgical_equipment",
-      categoryName: "Surgical Equipment",
+      categoryId: "beds",
+      categoryName: "Beds",
+      subCategory : [
+        {
+          subCategoryId: "bed1",
+          subCategoryName: "Bed1", 
+        },
+        {
+          subCategoryId: "bed2",
+          subCategoryName: "Bed2", 
+        },
+        {
+          subCategoryId: "bed3",
+          subCategoryName: "Bed3", 
+        },
+        {
+          subCategoryId: "bed4",
+          subCategoryName: "Bed4", 
+        }
+      ]
     },
     {
-      categoryId: "monitoring_equipment",
-      categoryName: "Monitoring Equipment",
+      categoryId: "lights",
+      categoryName: "Lights",
+      subCategory : [
+        {
+          subCategoryId: "light1",
+          subCategoryName: "Light1", 
+        },
+        {
+          subCategoryId: "light2",
+          subCategoryName: "Light2", 
+        },
+        {
+          subCategoryId: "light3",
+          subCategoryName: "Light3", 
+        },
+        {
+          subCategoryId: "light4",
+          subCategoryName: "Light4", 
+        }
+      ]
     },
     {
       categoryId: "life_support_equipment",
-      categoryName: "Life Support Equipment",
-    },
-    {
-      categoryId: "patient_care_equipment",
-      categoryName: "Patient Care Equipment",
-    },
-    {
-      categoryId: "laboratory_equipment",
-      categoryName: "Laboratory Equipment",
-    },
-    {
-      categoryId: "rehabilitation_equipment",
-      categoryName: "Rehabilitation Equipment",
-    },
-    {
-      categoryId: "imaging_equipment",
-      categoryName: "Imaging Equipment",
-    },
-    {
-      categoryId: "emergency_and_trauma_equipment",
-      categoryName: "Emergency and Trauma Equipment",
-    },
-    {
-      categoryId: "medical_furniture_and_storage",
-      categoryName: "Medical Furniture and Storage",
+      categoryName: "Life Support Equipments",
+      subCategory : [
+        {
+          subCategoryId: "life_support_equipment1",
+          subCategoryName: "Life Support Equipments1", 
+        },
+        {
+          subCategoryId: "life_support_equipment2",
+          subCategoryName: "Life Support Equipments2", 
+        },
+        {
+          subCategoryId: "life_support_equipment3",
+          subCategoryName: "Life Support Equipments3", 
+        },
+        {
+          subCategoryId: "life_support_equipment4",
+          subCategoryName: "Life Support Equipments4", 
+        }
+      ]
     }
   ];
 
   useEffect(() => {
-    const query = searchParams.get('cat')
-    if(!query){
-        return setCategoryList('all')
-    }else{
-        return setCategoryList(query)
-    }
+    const cat = searchParams.get('cat')
+    const subCat = searchParams.get('subCat')
+    return setCurrentCategory({cat,subCat})
   },[searchParams])
 
   return (
     <div
-      style={{
-        width: "100%",
-        padding: "10px 100px",
-        marginBottom: "40px",
-        overflow: "hidden",
-        
-      }}
       className="cat_container"
     >
       <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexWrap: "wrap",
-        }}
 
         className="cat_container-child"
       >
         {categorys.map((category) => {
           return (
-            <div
-                
-              style={{
-                width: "auto",
-                marginRight: "20px",
-                marginBottom: "10px",
-              }}
-            >
-             <a href={`/products?cat=${category.categoryId}`}> <article style={{cursor:"pointer",color:category.categoryId === categoryList ? 'crimson' : 'black',textDecoration:category.categoryId === categoryList ? 'underline' : 'none'}}>{category.categoryName}</article></a>
-            </div>
+            <>
+              <Cat category={category} currentCategory={currentCategory} />
+            </>
           );
         })}
       </div>
