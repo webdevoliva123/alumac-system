@@ -1,5 +1,7 @@
 .testiomnialCard-container{
     width: 100%;
+    height: auto;
+    min-height:50vh;
     padding: 2vmax 1vmax;
     display: grid;
     grid-template-columns: repeat(3,1fr);

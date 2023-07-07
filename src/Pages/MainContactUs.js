@@ -28,7 +28,6 @@ const MainContactUs = () => {
                  </iframe>
                 </div>
             </div>
-            <Footer data={Data.footer}/>
         </div>
     )
 }

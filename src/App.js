@@ -8,6 +8,7 @@ import MainContactUs from "./Pages/MainContactUs";
 import Data from "./Data/Data";
 import Navbar from "./components/jsFiles/Navbar";
 import MainProduct from "./Pages/MainProduct";
+import Footer from "./components/jsFiles/Footer";
 function App() {
   return (
     <div className="App">
@@ -41,6 +42,7 @@ function App() {
         />
         <Route exact path="/contact" element={<MainContactUs />} />
       </Routes>
+      <Footer data={Data.footer}/>
     </div>
   );
 }

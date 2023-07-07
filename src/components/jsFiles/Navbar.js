@@ -33,7 +33,7 @@ const Navbar = ({web_logo,relative}) => {
     return (
         <>
             <div className={`navbar ${sticky && 'sticky'} ${isLocationHome && 'locationHome'}`} id={relative}>
-                <Link to={`/`} className='Link'><a><img src={web_logo} alt="website logo" className="navbar-website__logo"/></a></Link>
+                {/* <Link to={`/`} className='Link'><a><img src={web_logo} alt="website logo" className="navbar-website__logo"/></a></Link> */}
                 <Link to={`/`} className='Link'><a className="web__logo"><span>Alumac</span> System.</a></Link>
                 <div className="navbar__rightBx">
                 <Link to={`/aboutUs`} className='Link'><a className='navbar__rightBx-navLinks'>About Us</a></Link>

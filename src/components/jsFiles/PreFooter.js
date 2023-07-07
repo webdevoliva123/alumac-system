@@ -1,9 +1,9 @@
 import React from 'react'
 import '../cssFiles/footer.css'
-const PreFooter = ({name}) => {
+const PreFooter = ({name,link}) => {
     return (
         <>
-            <a href="">{name}</a>
+            <a href={link}>{name}</a>
         </>
     )
 }

@@ -9,10 +9,29 @@
     padding: 40px 100px;
     display: grid;
     justify-content: center;
-    grid-template-rows: repeat(1,1fr);
-    grid-template-columns: repeat(7,172px);
+    grid-template-columns: 40% 20% 20% 20%;
     grid-gap: 0.5vmax;
 }
+
+.footerTitle{
+    color: #fff !important;
+    font-weight: 500;
+
+}
+
+.footerAbout article{
+    max-width: 80%;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #b0b0b0;
+    line-height: 22px;
+}
+
+.footerAbout a{
+    color: #b0b0b0 !important;
+    text-decoration: underline !important;
+}
+
 .preFooter1 p{
     font-size: 0.8em;
     color: #b0b0b0;
@@ -34,7 +53,7 @@
 .preFooter1 .conatact-span{
     font-size: 0.7em;
     font-weight: 200;
-    color: #b0b0b0;
+    color: #fff;
 }
 
 .preFooter1 .contactButton{
@@ -100,41 +119,40 @@
     font-size: 0.8em;
 }
 
-@media (max-width: 1300px) {}
-
-@media (max-width: 1120px) {}
-
-@media (max-width: 992px) {
-    .preFooter1Container{
-        visibility: hidden;
-        display: none;
+@media (max-width: 768px) {
+    .preFooter1{
+        grid-template-columns: auto;
+        padding: 40px;
     }
-    .preFooter3Container{
-        visibility: visible;
-        display: flex;
+
+    .preFooter1section{
+        margin-bottom: 10px;
     }
-}
 
-@media (max-width: 888px) {}
-
-@media (max-width: 767px){}
-
-@media (max-width:711px) {}
-
-@media (max-width: 576px){
     .preFooter2Container-content .hr{
         width: 100%;
     }
 
     .preFooter2Container-content{
-        padding:20px;
-    }
-
-    .preFooter2Container-content p{
-        text-align: center;
+        padding: 0 40px;
     }
 }
 
-@media (max-width: 480px){}
+@media (max-width: 425px) {
+    .footerAbout article{
+        max-width: 100%;
+    }
 
-@media (max-width: 420px) {}
+    .preFooter1{
+        padding: 40px 20px;
+    }
+
+    .preFooter2Container-content{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 992px) {
+   
+}
+

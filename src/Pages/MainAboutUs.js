@@ -16,7 +16,6 @@ const MainAboutUs = () => {
             </div>
             <Heading heading={`About`} headSpan={'Us'} />
             <AboutUs key={'aboutData'} data={Data.aboutUs}/>
-            <Footer data={Data.footer}/>
         </>
     )
 }

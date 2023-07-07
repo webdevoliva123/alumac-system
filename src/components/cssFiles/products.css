@@ -121,29 +121,29 @@
 .cat_container{
     position: relative;
     padding: 10px 10px ;
-    width: 80%;
+    width: 85%;
     margin-bottom: 40px;
-    border-bottom: 0.2px solid #cccccc;
+    border: 0.2px solid #cccccc;
     margin:0 auto ;
     margin-bottom: 50px;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .cat_container-child{
     position: relative;
     display: flex;
-    justify-content: end !important;
+    justify-content: start !important;
     align-items: center;
     flex-wrap: nowrap;
-    background: red;
+    /* background: red; */
 }
 
 .catButton{
     width: auto;
     /* width: 100px; */
     margin-right: 20px;
-    margin-bottom: 10px;
     position: relative;
 }
 
@@ -213,6 +213,11 @@
         margin-bottom: 0;
     }
 
+    .cat_container{
+        overflow: scroll;
+        justify-content: start;
+    }
+
     /* .cat_container-child{
         justify-content: start !important;
     } */
@@ -253,5 +258,12 @@
     
     .cat_container{
         padding: 10px 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .catButton{
+        font-size: 0.8em;
+        white-space: nowrap;
     }
 }

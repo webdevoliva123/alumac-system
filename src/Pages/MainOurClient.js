@@ -10,7 +10,6 @@ const MainOurClient = ({clientShow}) => {
         <div style={{padding:"40px 0"}}>
             <Heading heading={`Our`} headSpan={` Client`}/>
             <Testimonial data={Data.clientData} clientKey={clientShow}/>
-            <Footer data={Data.footer}/>
         </div>
     )
 }

@@ -11,7 +11,6 @@ const MainProducts = ({producShow}) => {
             <Heading heading={`Our`} headSpan={`Product`} />
             <Category />
             <Product proData={Data.product} prokey={producShow}/>
-            <Footer data={Data.footer}/>
         </div>
     )
 }

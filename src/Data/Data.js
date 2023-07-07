@@ -46,18 +46,15 @@ let Data = {
     },
     "serviceData" : [
         {
-            "value" : 'a',
-            'img':'./img/best-price.png',
+            "value" : 1,
             'title' : 'Product At Best Price',
             'description' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nostrum dolores facilis rerum consequuntur.'
         }, {
-            "value" : 'b',
-            'img':'./img/24-hours.png',
+            "value" : 2,
             'title' : 'Open 24/7',
             'description' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nostrum dolores facilis rerum consequuntur.'
         }, {
-            "value" : 'b',
-            'img':'./img/best Quality.png',
+            "value" : 3,
             'title' : 'Best Quality',
             'description' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nostrum dolores facilis rerum consequuntur.'
         }
@@ -164,125 +161,49 @@ let Data = {
         }
     ],
     "footer": {
-        "support": [
+    "sec1": [
             {
-                "name": "Online Help",
-                "url": "product/"
+                "name": "All",
+                "url": "/products"
             },
             {
-                "name": "Customer Service",
-                "url": "product/"
+                "name": "Curtains",
+                "url": "/products?cat=curtains"
             },
             {
-                "name": "Shipping FAQ",
-                "url": "product/"
+                "name": "Beds",
+                "url": "/products?cat=beds"
             },
             {
-                "name": "Service Centres",
-                "url": "product/"
+                "name": "Lights",
+                "url": "/products?cat=lights"
             },
             {
-                "name": "Warrenty",
-                "url": "product/"
+                "name": "Life Support Equipments",
+                "url": "/products?cat=life_support_equipmentLife Support Equipments"
             },
-            {
-                "name": "Mi Exchange",
-                "url": "product/"
-            },
-            {
-                "name": "Bulk Order",
-                "url": "product/"
-            },
-            {
-                "name": "User Guide",
-                "url": "product/"
-            },
-            {
-                "name": "Laptop Drivers",
-                "url": "product/"
-            },
-            {
-                "name": "Mi Screen Protect",
-                "url": "product/"
-            },
-            {
-                "name": "Mi Extended Warranty",
-                "url": "product/"
-            }
     ],
-    "shopAndLearn": [
+    "sec2": [
             {
-                "name": "Mi 10i",
-                "url": "product/"
+                "name": "Home",
+                "url": "/"
             },
             {
-                "name": "Mi 10T Series",
-                "url": "product/"
+                "name": "About Us",
+                "url": "/aboutUs"
             },
             {
-                "name": "Mi 11 Ultra",
-                "url": "product/"
+                "name": "Products",
+                "url": "/products"
             },
             {
-                "name": "Mi 11X",
-                "url": "product/"
+                "name": "Our Client",
+                "url": "/client"
             },
             {
-                "name": "Mi 11X Pro",
-                "url": "product/"
+                "name": "Contact Us",
+                "url": "/contact"
             },
-            {
-                "name": "Redmi 8",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi 9",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi 9 Prime",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi 9i",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi 9A",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi Note 10",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi Note 10 Pro",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi Note 10 Pro Max",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi Note 9 Pro",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi Note 9",
-                "url": "product/"
-            },
-            {
-                "name": "Redmi Note 9 Pro Max",
-                "url": "product/"
-            },
-            {
-                "name": "TVs",
-                "url": "product/"
-            },
-            {
-                "name": "Laptops",
-                "url": "product/"
-            }
     ],
     "retailStore": [
             {

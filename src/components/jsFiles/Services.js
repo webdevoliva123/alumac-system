@@ -10,7 +10,7 @@ const Services = ({details}) => {
                   details.map((e,i) => {
                         return(
                             <>
-                                <Service key={i} img={e.img} title={e.title} description={e.description} index={i}/>
+                                <Service key={i} value={e.value} img={e.img} title={e.title} description={e.description} index={i}/>
                             </>
                         )
                   })

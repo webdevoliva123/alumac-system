@@ -8,11 +8,11 @@ const Sidebar = ({show}) => {
         <>
             <div className="sidebar" id={show}>
                 <div className="sidebar__navLink">
-                <Link to={`/home`} className='Link'><a className='siderbar__navLinks'>Home</a></Link>
-                <Link to={`/aboutUs`} className='Link'><a className='siderbar__navLinks'>About Us</a></Link>
-                <Link to={`/product`} className='Link'><a className='siderbar__navLinks'>Product</a></Link>              
-                <Link to={`/client`} className='Link'><a className='siderbar__navLinks'>Our Client</a></Link>
-                <Link to={`/contact`} className='Link'><a className='siderbar__navLinks'>Contact Us</a></Link>
+                <a href={`/home`} className='Link'><article className='siderbar__navLinks'>Home</article></a>
+                <a href={`/aboutUs`} className='Link'><article className='siderbar__navLinks'>About Us</article></a>
+                <a href={`/products`} className='Link'><article className='siderbar__navLinks'>Products</article></a>              
+                <a href={`/client`} className='Link'><article className='siderbar__navLinks'>Our Client</article></a>
+                <a href={`/contact`} className='Link'><article className='siderbar__navLinks'>Contact Us</article></a>
                 <SocialMedia align={'right-less'} />
                 </div>
             </div>

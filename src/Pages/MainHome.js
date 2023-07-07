@@ -31,7 +31,6 @@ const MainHome = ({producShow,clientShow}) => {
             <CustomButton Data={'View More'} link={'client'}/>
          </div>
          </div>
-         <Footer data={Data.footer}/>
         </>
     )
 }

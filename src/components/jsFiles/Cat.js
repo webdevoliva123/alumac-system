@@ -19,14 +19,14 @@ const Cat = ({category,currentCategory}) => {
             alignItems : 'center'
           }}
         >
-          {category.categoryName}
+          <span>{category.categoryName}</span>
           {/* arrow */}
-          {category.subCategory && category.categoryId !== 'all' && <div className={`arrowDiv ${category.categoryId === currentCategory?.cat && 'active'}`}>
+          {/* {category.subCategory && category.categoryId !== 'all' && <div className={`arrowDiv ${category.categoryId === currentCategory?.cat && 'active'}`}>
             <img src={DArrow} className="arrowImg"/>
-          </div>}
+          </div>} */}
         </article>
       </a>
-      <div className={`subCatDiv ${category.categoryId === currentCategory?.cat && category.categoryId !== 'all' && 'active'}`}>
+      {/* <div className={`subCatDiv ${category.categoryId === currentCategory?.cat && category.categoryId !== 'all' && 'active'}`}>
           {
             category?.subCategory?.map((subCat) => {
                 console.log(subCat);
@@ -37,7 +37,7 @@ const Cat = ({category,currentCategory}) => {
                 )
             })
           }
-        </div>
+        </div> */}
     </div>
   );
 };

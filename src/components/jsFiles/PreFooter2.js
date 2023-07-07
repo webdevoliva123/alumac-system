@@ -10,7 +10,7 @@ const PreFooter2 = () => {
                     <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
                     <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
                 </div>
-                <p>Copyright @ 2022 | Made By 🍁 Oliva.</p>
+                <p style={{textAlign:'center'}}>Copyright @ 2022 Alumac System. | All Right Reserved.</p>
             </div>
         </>
     )

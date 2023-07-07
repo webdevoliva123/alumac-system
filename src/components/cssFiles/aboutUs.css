@@ -1,6 +1,7 @@
 .aboutUs-Container{
     width: 100%;
     height: auto;
+    min-height: 100vh;
     padding: 2vmax 1vmax;
     display: flex;
     justify-content: center;
@@ -56,5 +57,24 @@
 @media screen and (max-width: 768px) {
     .aboutUs-Container{
         flex-direction: column-reverse;
+    }
+
+    .aboutUs-Container .leftBx,
+    .aboutUs-Container .rightBx{
+        width: 100%;
+    }
+
+    .aboutUs-Container .rightBx .imgBx{
+        width: 60%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+   
+
+    .aboutUs-Container .rightBx .imgBx{
+        width: 100%;
+        height: 400px;
     }
 }
