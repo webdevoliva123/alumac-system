@@ -69,7 +69,7 @@ let Data = {
             "id" : "123",
             "proName" : "Stethoscope",
             "proDec" : "Used to listen to the internal sounds of the body, particularly the heart and lungs.",
-            "proImg" : "https://5.imimg.com/data5/JN/KN/QD/SELLER-783049/stethoscope.jpg",
+            "proImg" : "https://images.unsplash.com/photo-1584982751601-97dcc096659c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
             "onHomePage" : 'product',
             "inCategory" : {
                 "catId" : "curtains",
@@ -80,7 +80,7 @@ let Data = {
             "id" : "123",
             "proName" : "Blood Pressure Monitor",
             "proDec" : "Measures the pressure of blood in the arteries and determines if a person has high or low blood pressure.",
-            "proImg" : "https://m.media-amazon.com/images/I/711nlwtqCIL.jpg",
+            "proImg" : "https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
             "onHomePage" : 'product',
             "inCategory" : {
                 "catId" : "curtains",
@@ -91,7 +91,7 @@ let Data = {
             "id" : "123",
             "proName" : "Thermometer",
             "proDec" : "Measures body temperature to diagnose fever or hypothermia.",
-            "proImg" : "https://cdn01.pharmeasy.in/dam/products_otc/B63401/pharmeasy-infrared-thermometer-6.3-1671745334.jpg",
+            "proImg" : "https://images.unsplash.com/photo-1583947581879-41e4c88394c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "onHomePage" : 'product',
             "inCategory" : {
                 "catId" : "",
@@ -102,7 +102,7 @@ let Data = {
             "id" : "123",
             "proName" : "Pulse Oximeter",
             "proDec" : "Measures the oxygen saturation levels in the blood and pulse rate.",
-            "proImg" : "https://cdn.shopify.com/s/files/1/0422/6960/6039/products/OximeterB_1024x.png?v=1643091509",
+            "proImg" : "https://images.unsplash.com/photo-1615486511262-c7b5c7f42b14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2832&q=80",
             "onHomePage" : 'product',
             "inCategory" : {
                 "catId" : "beds",
@@ -113,7 +113,7 @@ let Data = {
             "id" : "123",
             "proName" : "Electrocardiogram (ECG or EKG) Machine",
             "proDec" : "Records the electrical activity of the heart to diagnose heart conditions.",
-            "proImg" : "https://bionetus.com/wp-content/uploads/2017/12/Cardio7-S-Bionet-interpretive-ECG-EKG-Electrocardiograph-Spirometry_2.png",
+            "proImg" : "https://images.unsplash.com/photo-1513224502586-d1e602410265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2831&q=80",
             "onHomePage" : 'product',
             "inCategory" : {
                 "catId" : "beds",

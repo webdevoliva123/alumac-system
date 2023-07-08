@@ -24,8 +24,8 @@ const MainHome = ({producShow,clientShow}) => {
          <div className="div">
             <CustomButton Data={'View More'} link={'/products'}/>
          </div>
-         <div style={{background:"#f1f1f1"}}>
-         <Heading heading={`Our`} headSpan={` Client`}/>
+         <div className='testimonContainer'>
+         <Heading heading={`Our`} headSpan={` Client`} isActive={true}/>
          <Testimonial data={Data.clientData} clientKey={clientShow}/>
          <div className="div">
             <CustomButton Data={'View More'} link={'client'}/>

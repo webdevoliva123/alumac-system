@@ -20,6 +20,10 @@
     color: var(--primary-red);
 }
 
+.heading.active{
+    color: #fff;
+}
+
 .heading::before{
     content: '';
     position: absolute;

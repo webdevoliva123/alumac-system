@@ -1,9 +1,9 @@
 import React from 'react'
 import '../cssFiles/heading.css'
-const Heading = ({heading,headSpan}) => {
+const Heading = ({heading,headSpan,isActive}) => {
     return (
         <>
-          <h1 className='heading'>{heading} <span>{headSpan}</span></h1>  
+          <h1 className={`heading ${isActive && 'active'}`}>{heading} <span>{headSpan}</span></h1>  
         </>
     )
 }
