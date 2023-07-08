@@ -1,7 +1,6 @@
 .aboutUs-Container{
     width: 100%;
-    height: auto;
-    min-height: 100vh;
+    min-height: 300px;
     padding: 2vmax 1vmax;
     display: flex;
     justify-content: center;
@@ -17,6 +16,9 @@
 
 .aboutUs-Container .leftBx{
     width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: start;
 }
 
 .aboutUs-Container .rightBx{
@@ -36,9 +38,8 @@
 
 
 .aboutUs-Container .rightBx .imgBx{
-    width: 80%;
-    height: 80%;
-    background: red;
+    width: 400px;
+    height: 400px;
 }
 
 .aboutUs-Container .rightBx .imgBx img{

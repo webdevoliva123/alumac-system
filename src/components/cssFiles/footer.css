@@ -16,7 +16,6 @@
 .footerTitle{
     color: #fff !important;
     font-weight: 500;
-    font-size: 1.2em !important;
 
 }
 
@@ -136,6 +135,10 @@
 
     .preFooter2Container-content{
         padding: 0 40px;
+    }
+
+    .footerTitle{
+        font-size: 1.2em !important;
     }
 }
 
