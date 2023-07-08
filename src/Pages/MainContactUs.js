@@ -3,6 +3,7 @@ import Footer from '../components/jsFiles/Footer'
 import Navbar from '../components/jsFiles/Navbar'
 import Heading from '../components/jsFiles/Heading'
 import Data from '../Data/Data'
+import '../components/cssFiles/contactUs.css'
 
 const MainContactUs = () => {
     return (
