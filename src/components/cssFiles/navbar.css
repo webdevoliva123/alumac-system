@@ -124,14 +124,6 @@
 
 
 
-@media (max-width: 1300px) {}
-
-@media (max-width: 1120px) {}
-
-@media (max-width: 992px) {}
-
-@media (max-width: 888px) {}
-
 @media (max-width: 767px){
     .web__logo{
         font-size: 1.8em;
@@ -149,8 +141,12 @@
         visibility: visible;
     }
     
-    .navbar__rightBx,.web__logo{
+    .navbar__rightBx{
         visibility: hidden;
+    }
+
+    .web__logo{
+        font-size: 1em;
     }
 }
 

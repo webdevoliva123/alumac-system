@@ -22,7 +22,7 @@ const MainHome = ({producShow,clientShow}) => {
          <Heading heading={`Our`} headSpan={` Products`}/>
          <Product proData={Data.product} prokey={producShow}/>
          <div className="div">
-            <CustomButton Data={'View More'} link={'product'}/>
+            <CustomButton Data={'View More'} link={'/products'}/>
          </div>
          <div style={{background:"#f1f1f1"}}>
          <Heading heading={`Our`} headSpan={` Client`}/>
