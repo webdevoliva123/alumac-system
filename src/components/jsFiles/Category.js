@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import '../cssFiles/products.css'
+import {getAllCategories} from '../../utils/productsUtils'
 import Cat from "./Cat";
 
-const Category = () => {
-    const [currentCategory, setCurrentCategory] = useState({cat:"all",subCat:null})
+const Category = (proData) => {
+    const [currentCategory, setCurrentCategory] = useState({cat:"all"})
     const [searchParams, setSearchParams] = useSearchParams();
 
   const categorys = [

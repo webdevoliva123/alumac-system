@@ -71,7 +71,10 @@ let Data = {
             "proDec" : "Used to listen to the internal sounds of the body, particularly the heart and lungs.",
             "proImg" : "https://5.imimg.com/data5/JN/KN/QD/SELLER-783049/stethoscope.jpg",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "curtains",
+                "cat" : "Curtains"
+            }
         },
         {
             "id" : "123",
@@ -79,7 +82,10 @@ let Data = {
             "proDec" : "Measures the pressure of blood in the arteries and determines if a person has high or low blood pressure.",
             "proImg" : "https://m.media-amazon.com/images/I/711nlwtqCIL.jpg",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "curtains",
+                "cat" : "Curtains"
+            }
         },
         {
             "id" : "123",
@@ -87,7 +93,10 @@ let Data = {
             "proDec" : "Measures body temperature to diagnose fever or hypothermia.",
             "proImg" : "https://cdn01.pharmeasy.in/dam/products_otc/B63401/pharmeasy-infrared-thermometer-6.3-1671745334.jpg",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "",
+                "cat" : ""
+            }
         },
         {
             "id" : "123",
@@ -95,7 +104,10 @@ let Data = {
             "proDec" : "Measures the oxygen saturation levels in the blood and pulse rate.",
             "proImg" : "https://cdn.shopify.com/s/files/1/0422/6960/6039/products/OximeterB_1024x.png?v=1643091509",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "beds",
+                "cat" : "Beds"
+            }
         },
         {
             "id" : "123",
@@ -103,7 +115,10 @@ let Data = {
             "proDec" : "Records the electrical activity of the heart to diagnose heart conditions.",
             "proImg" : "https://bionetus.com/wp-content/uploads/2017/12/Cardio7-S-Bionet-interpretive-ECG-EKG-Electrocardiograph-Spirometry_2.png",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "beds",
+                "cat" : "Beds"
+            }
         },
         {
             "id" : "123",
@@ -111,7 +126,10 @@ let Data = {
             "proDec" : "IUses high-frequency sound waves to produce images of the internal structures of the body, commonly used in obstetrics and diagnostic imaging.",
             "proImg" : "https://tiimg.tistatic.com/fp/1/007/067/ge-vivid-e9-ultrasound-machine-357.jpg",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "lights",
+                "cat" : "Lights"
+            }
         },
         {
             "id" : "123",
@@ -119,7 +137,10 @@ let Data = {
             "proDec" : "Produces X-ray images of bones and tissues to diagnose fractures, tumors, and other abnormalities.",
             "proImg" : "https://info.blockimaging.com/hubfs/AmRad.png",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "lights",
+                "cat" : "Lights"
+            }
 
         },
         {
@@ -128,7 +149,10 @@ let Data = {
             "proDec" : "Uses powerful magnets and radio waves to create detailed images of the body's internal structures.",
             "proImg" : "https://images.jdmagicbox.com/quickquotes/images_main/siemens-diagnostic-imaging-equipment-21-01-21-8-220038036-52g3c.jpg",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "life_support_equipment",
+                "cat" : "Life Support Equipment"
+            }
         },
         {
             "id" : "123",
@@ -136,7 +160,10 @@ let Data = {
             "proDec" : "Used to deliver an electric shock to the heart to restore normal heart rhythm in cases of cardiac arrest.",
             "proImg" : "https://www.gimaitaly.com/it/assets/altreimmagini/55514.jpg",
             "onHomePage" : 'product',
-            "inCategory" : "cat1"
+            "inCategory" : {
+                "catId" : "life_support_equipment",
+                "cat" : "Life Support Equipment"
+            }
         }
    ,     
     ],

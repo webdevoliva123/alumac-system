@@ -7,7 +7,6 @@ import MainOurClient from "./Pages/MainOurClient";
 import MainContactUs from "./Pages/MainContactUs";
 import Data from "./Data/Data";
 import Navbar from "./components/jsFiles/Navbar";
-import MainProduct from "./Pages/MainProduct";
 import Footer from "./components/jsFiles/Footer";
 function App() {
   return (
@@ -34,11 +33,6 @@ function App() {
           exact
           path="/client"
           element={<MainOurClient clientShow={Data.clientData.length} />}
-        />
-        <Route
-          exact
-          path="/product/:id"
-          element={<MainProduct clientShow={Data.product} />}
         />
         <Route exact path="/contact" element={<MainContactUs />} />
       </Routes>

@@ -98,30 +98,30 @@
     color: #111;
 }
 
-@media (max-width: 1300px) {}
+@media screen and (max-width: 768px) {
+    .contact-container{
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
 
-@media (max-width: 1120px) {}
+    .contact-container .box{
+        margin: 0 auto;
+    }
 
-@media (max-width: 992px) {
-    .contact-container .right{
-        display: none;
-        visibility: hidden;
+    .contact-container .box.right{
+        padding-right: 0;
+        height: 400px;
+        padding: 10px !important;
     }
 }
 
-@media (max-width: 888px) {}
+@media screen and (max-width: 425px) {
+    .contact-container{
+        margin: 0;
+    }
 
-@media (max-width: 767px){}
-
-@media (max-width:711px) {
-
-.contact-container .box .content{
-    text-align: center;
+    .contact-container .box{
+        width: 100%;
+    }
 }
-}
-
-@media (max-width: 576px){}
-
-@media (max-width: 480px){}
-
-@media (max-width: 420px) {}
